@@ -31,7 +31,7 @@ const App = () => {
             <div className="quotes">
                 {quotes.map((quote, index) => (
                     <div key={index} className="quote">
-                        <p>"{quote.text}"</p>
+                        <p>"{quote.content}"</p>
                         <p>- {quote.author}</p>
                     </div>
                 ))}
